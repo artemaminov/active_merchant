@@ -71,6 +71,11 @@ braintree_blue_with_processing_rules:
   public_key: Y
   private_key: Z
 
+# Working credentials, no need to replace
+bridge_pay:
+  user_name: Spre3676
+  password: H3392nc5
+
 #Username/Password given in sign up email. Not MMS credentials
 card_save:
   login: merchant_id
@@ -654,7 +659,7 @@ transax:
   login: transaxdemo
   password: nelix123
 
-transnational:
+network_merchants:
   login: demo
   password: password
 
@@ -710,8 +715,9 @@ world_pay_gateway:
   password: PASSWORD
 
 iats_payments:
-  login: TEST88
+  agent_code: TEST88
   password: TEST88
+  region: na
 
 bit_pay:
   api_key: 'rKrahSl7WRrYeKRUhGzbvW3nBzo0jG4FPaL8uPYaoPk'

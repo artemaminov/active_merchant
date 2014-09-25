@@ -1,9 +1,45 @@
 = ActiveMerchant CHANGELOG
 
+== Version 1.43.1 (May 1, 2014)
+
+* Merchant Warrior: Scrub names [duff]
+* Validate Gateway.supported_countries [rwdaigle]
+* Stripe: Add recurring flag support [bslobodin]
+* Stripe: Use localized amounts for currencies w/o minor units [bslobodin]
+* WebPay: Leverage fixes to Stripe to remove duplicate code [bslobodin]
+* Klarna: Miscellanenous fixes [edward]
+* Mollie iDEAL: Use order's description [wvanbergen]
+
+== Version 1.43.0 (April 24, 2014)
+
+* PagSeguro: New offsite integration [celsodantas]
+* Sage Pay: Fix amount parsing in notifications [berkcaputcu]
+* Sage Pay: Use API v3.00 [bslobodin]
+* BridgePay: Switch method of success detection [markabe]
+* BridgePay: Use Return as TransType for refunds [markabe]
+* IATS: Complete rewrite using first class API [rwdaigle]
+* IATS: Fix invalid country code UK -> GB [rwdaigle]
+* DataCash: Fix refund processing using original authorization [bslobodin]
+* Transnational gateway renamed to Network Merchants [bslobodin]
+* PayMill: Handle non-JSON server responses [bslobodin]
+
+== Version 1.42.9 (April 15, 2014)
+
+* Spreedly: Add ip, description and gateway_specific_fields [faizalzakaria]
+* Sage (US): Support store/unstore of cards [rwdaigle]
+* Pin: Add american express to supported cards [nagash]
+* Raven: Update handling of CVV/AVS [bslobodin]
+* Raven: Use UUID for RequestID [bslobodin]
+
+== Version 1.42.8 (April 4, 2014)
+
 * Cecabank: Handle invalid xml response body [duff]
 * Wirecard: Capture error code in the response [duff]
 * Litle: Remove gem dependency [duff]
 * Litle: Fix case of missing address parts [duff]
+* Universal: Add universal offsite API implementation [bslobodin]
+* Iridium: Add more currencies [bslobodin]
+* iDeal: Add Mollie iDeal offsite implementation [wvanbergen, maartenvg]
 
 == Version 1.42.7 (March 18, 2014)
 
